@@ -1,0 +1,31 @@
+{
+  "name": "discord-screening-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for managing movie screenings",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint src/",
+    "test": "jest"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "screening",
+    "movie"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
