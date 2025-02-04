@@ -25,6 +25,7 @@
 - Node.js 16.9.0 이상
 - npm 또는 yarn
 - Discord Bot Token
+- TMDV API KEY
 
 ### 설치 방법
 
@@ -33,7 +34,7 @@
 
 ```env
 DISCORD_TOKEN=[your_bot_token]
-TMDB_API_KEY==[your_tvmb_api_key]
+TMDB_API_KEY=[your_tmdb_api_key]
 ```
 
 2. 명령어 등록
