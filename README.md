@@ -32,9 +32,8 @@
 `.env` 파일을 생성하고 다음 내용을 입력:
 
 ```env
-DISCORD_TOKEN=your_bot_token
-CLIENT_ID=your_client_id
-GUILD_ID=your_guild_id
+DISCORD_TOKEN=[your_bot_token]
+TMDB_API_KEY==[your_tvmb_api_key]
 ```
 
 2. 명령어 등록
